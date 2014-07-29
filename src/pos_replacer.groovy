@@ -1,7 +1,7 @@
 import com.google.common.collect.BiMap
 import com.google.common.collect.HashBiMap
 
-def projectRoot = 'c:/projects/words/QuorumGypsum/'
+def projectRoot = 'c:/Users/chris/IdeaProjects/QuorumGypsum/'
 
 def refFile = "${projectRoot}/reference/mpos/mobyposi.txt"
 BiMap<String, List<String>> posToWordListBiMap = HashBiMap.create()
